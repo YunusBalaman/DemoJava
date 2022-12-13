@@ -59,7 +59,7 @@ public class Junit5Test extends BaseJunit5{
         System.out.println("Soyad: " + soyad);
         assertAll("Ad Soyad Kontrol",
                 () -> assertEquals("Yunus",ad, ad + " ad error"),
-                () -> assertEquals("",soyad, soyad + " soyad error"),
+                () -> assertEquals("Balaman",soyad, soyad + " soyad error"),
                 () -> assertNotNull(ad, "ad null")
         );
     }
