@@ -58,7 +58,7 @@ public class Junit5Test extends BaseJunit5{
         System.out.println("Ad : " + ad);
         System.out.println("Soyad: " + soyad);
         assertAll("Ad Soyad Kontrol",
-                () -> assertEquals("Ali",ad, ad + " ad error"),
+                () -> assertEquals("Yunus",ad, ad + " ad error"),
                 () -> assertEquals("",soyad, soyad + " soyad error"),
                 () -> assertNotNull(ad, "ad null")
         );
